@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Street Fighter</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/menu.css" />
+
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Roboto+Mono:ital,wght@0,400;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header" id="inicio">
+      <div class="header-container">
+        <a href="#">
+          <h1 class="logo">STREET FIGHTER</h1>
+        </a>
+
+        <nav>
+          <input type="checkbox" id="menu-hamburguer" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#personagem">Personagens</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <h2>Street Fighter</h2>
+    </section>
+    <section class="content" id="personagem">
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>KEN</h3>
+            <p>
+              Ex-campeão do Campeonato Nacional de Luta e ex-vice-presidente da
+              Fundação Masters. Acusações de orquestrar um plano criminoso
+              forçaram Ken a abandonar negócios e família e se esconder.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">reuniões inúteis</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text">família</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,75 m</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">83 kg</span>
+              </li>
+            </ul>
+            <a href="#" class="btn-know-more">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-img slide-ken">
+        <div class="slides">
+          <input type="radio" name="slide" id="slide1" checked />
+          <input type="radio" name="slide" id="slide2" />
+          <input type="radio" name="slide" id="slide3" />
+          <input type="radio" name="slide" id="slide4" />
+
+          <div class="slide s1">
+            <img src="./src/image/ken_s1.jpg" alt="imagem do personagem Ken" />
+          </div>
+          <div class="slide s2">
+            <img src="./src/image/ken_s2.jpg" alt="imagem do personagem Ken" />
+          </div>
+          <div class="slide s3">
+            <img src="./src/image/ken_s3.jpg" alt="imagem do personagem Ken" />
+          </div>
+          <div class="slide s4">
+            <img src="./src/image/ken_s4.jpg" alt="" />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info Ryu -->
+
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>RYU</h3>
+            <p>
+              Treinando incessantemente, este lutador busca a verdadeira força.
+              Sincero e educado, Ryu viaja pelo mundo em busca de oponentes
+              dignos. Depois de dominar o Satsui no Hado, agora ele busca alçar
+              novos voos.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">aranhas</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text">artes marciais</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,75 m</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">85 kg</span>
+              </li>
+            </ul>
+            <a
+              href="https://www.streetfighter.com/6/pt-br/character/ryu.html"
+              class="btn-know-more"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- slide Ryu -->
+      <div class="slide-img slide-ryu">
+        <div class="slides">
+          <input type="radio" name="slide" id="slideryu1" checked />
+          <input type="radio" name="slide" id="slideryu2" />
+          <input type="radio" name="slide" id="slideryu3" />
+          <input type="radio" name="slide" id="slideryu4" />
+
+          <div class="slide s1">
+            <img src="./src/image/ryu_s1.jpg" alt="imagem do personagem Ken" />
+          </div>
+          <div class="slide s2">
+            <img src="./src/image/ryu_s2.jpg" alt="imagem do personagem Ken" />
+          </div>
+          <div class="slide s3">
+            <img src="./src/image/ryu_s3.jpg" alt="imagem do personagem Ken" />
+          </div>
+          <div class="slide s4">
+            <img src="./src/image/ryu_s4.jpg" alt="" />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slideryu1"></label>
+            <label class="bar" for="slideryu2"></label>
+            <label class="bar" for="slideryu3"></label>
+            <label class="bar" for="slideryu4"></label>
+          </div>
+        </div>
+      </div>
+
+      <!--Info Guile -->
+
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>GUILE</h3>
+            <p>
+              Piloto da força aérea estadunidense e defensor do país, Guile
+              conseguiu vencer a Shadaloo e vingar seu amigo Charlie. Embora
+              goste da vida familiar como poucos, novos campos de batalha o
+              esperam.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">segredos, gente preguiçosa </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text"
+                  >assistir esportes, passear com o cachorro
+                </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,82 m </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">99 kg</span>
+              </li>
+            </ul>
+            <a
+              href="https://www.streetfighter.com/6/pt-br/character/guile.html"
+              class="btn-know-more"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide Guile -->
+
+      <div class="slide-img slide-guile">
+        <div class="slides">
+          <input type="radio" name="slide" id="slideguile1" checked />
+          <input type="radio" name="slide" id="slideguile2" />
+          <input type="radio" name="slide" id="slideguile3" />
+          <input type="radio" name="slide" id="slideguile4" />
+
+          <div class="slide s1">
+            <img
+              src="./src/image/guile_s1.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s2">
+            <img
+              src="./src/image/guile_s2.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s3">
+            <img
+              src="./src/image//guile_s3.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s4">
+            <img src="./src/image/guile_s4.jpg" alt="" />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slideguile1"></label>
+            <label class="bar" for="slideguile2"></label>
+            <label class="bar" for="slideguile3"></label>
+            <label class="bar" for="slideguile4"></label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ehonda -->
+
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>E.HONDA</h3>
+            <p>
+              Um lutador de sumô que busca popularizar esse esporte pelo mundo,
+              E. Honda poderia chegar a yokozuna, mas as viagens constantes
+              impedem sua promoção. Ele também é um cozinheiro de primeira,
+              conhecido pelo seu chankonabe.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">Indecisão</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text">Banhos</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,85 m</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">137 kg</span>
+              </li>
+            </ul>
+            <a
+              href="https://www.streetfighter.com/6/pt-br/character/ehonda.html"
+              class="btn-know-more"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide E.Honda -->
+
+      <div class="slide-img slide-ehonda">
+        <div class="slides">
+          <input type="radio" name="slide" id="slideehonda1" checked />
+          <input type="radio" name="slide" id="slideehonda2" />
+          <input type="radio" name="slide" id="slideehonda3" />
+          <input type="radio" name="slide" id="slideehonda4" />
+
+          <div class="slide s1">
+            <img
+              src="./src/image/ehonda_s1.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s2">
+            <img
+              src="./src/image/ehonda_s2.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s3">
+            <img
+              src="./src/image/ehonda_s3.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s4">
+            <img src="./src/image/ehonda_s4.jpg" alt="" />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slideehonda1"></label>
+            <label class="bar" for="slideehonda2"></label>
+            <label class="bar" for="slideehonda3"></label>
+            <label class="bar" for="slideehonda4"></label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info Kimberly -->
+
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>KIMBERLY</h3>
+            <p>
+              Aluna de Guy e 39ª sucessora do Bushinryu. Kimberly teve uma
+              infância normal, mas é uma garota prodígio que se formou antes do
+              tempo... e agora quer ser ninja. Adora cultura pop dos anos 80.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">Filmes sentimentais </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text"
+                  >Música dos anos 80, tênis, números grandes
+                </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,68 m</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">61 kg</span>
+              </li>
+            </ul>
+            <a href="#" class="btn-know-more">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide Kimberly -->
+
+      <div class="slide-img slide-kimberly">
+        <div class="slides">
+          <input type="radio" name="slide" id="slidekimberly1" checked />
+          <input type="radio" name="slide" id="slidekimberly2" />
+          <input type="radio" name="slide" id="slidekimberly3" />
+          <input type="radio" name="slide" id="slidekimberly4" />
+
+          <div class="slide s1">
+            <img
+              src="./src/image/kimberly_s1.jpg"
+              alt="imagem da personagem Kimberly"
+            />
+          </div>
+          <div class="slide s2">
+            <img
+              src="./src/image/kimberly_s2.jpg"
+              alt="imagem da personagem Kimberly"
+            />
+          </div>
+          <div class="slide s3">
+            <img
+              src="./src/image/kimberly_s3.jpg"
+              alt="imagem da personagem Kimberly"
+            />
+          </div>
+          <div class="slide s4">
+            <img
+              src="./src/image/kimberly_s4.jpg"
+              alt="imagem da personagem Kimberly"
+            />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slidekimberly1"></label>
+            <label class="bar" for="slidekimberly2"></label>
+            <label class="bar" for="slidekimberly3"></label>
+            <label class="bar" for="slidekimberly4"></label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Luke -->
+
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>LUKE</h3>
+            <p>
+              Contratado por uma EMP, Luke usa sua vasta experiência para
+              ensinar MMA. Ele passa os dias livres comendo tranqueiras, jogando
+              videogames e lutando, mas não se engane: ele joga para vencer.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">jogos de terror </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text"
+                  >viajar, jogos de PC, camisetas doidas
+                </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,85 m</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">90 kg</span>
+              </li>
+            </ul>
+            <a
+              href="https://www.streetfighter.com/6/pt-br/character/luke.html"
+              class="btn-know-more"
+              >Saiba Mais</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide Luke -->
+
+      <div class="slide-img slide-luke">
+        <div class="slides">
+          <input type="radio" name="slide" id="slideluke1" checked />
+          <input type="radio" name="slide" id="slideluke2" />
+          <input type="radio" name="slide" id="slideluke3" />
+          <input type="radio" name="slide" id="slideluke4" />
+
+          <div class="slide s1">
+            <img
+              src="./src/image/luke_s1.jpg"
+              alt="imagem do personagem Luke"
+            />
+          </div>
+          <div class="slide s2">
+            <img
+              src="./src/image/luke_s2.jpg"
+              alt="imagem do personagem Luke"
+            />
+          </div>
+          <div class="slide s3">
+            <img
+              src="./src/image/luke_s3.jpg"
+              alt="imagem do personagem Luke"
+            />
+          </div>
+          <div class="slide s4">
+            <img
+              src="./src/image/luke_s4.jpg"
+              alt="imagem do personagem Luke"
+            />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slideluke1"></label>
+            <label class="bar" for="slideluke2"></label>
+            <label class="bar" for="slideluke3"></label>
+            <label class="bar" for="slideluke4"></label>
+          </div>
+        </div>
+      </div>
+
+      <!--Info Chunli -->
+
+      <div class="item">
+        <div class="face">
+          <div class="front">
+            <h3>CHUN-LI</h3>
+            <p>
+              Ex-agente em ascensão da ICPO, Chun-Li cuida de Li-Fen, vítima do
+              Incidente da Black Moon. Com a Shadaloo agora dividida, Chun-Li dá
+              aulas de kung fu e se tornou uma figura adorada pela comunidade
+              local.
+            </p>
+          </div>
+
+          <div class="back">
+            <h3>PERFIL</h3>
+            <ul class="item-list">
+              <li class="info-list-item">
+                <span class="item-info-title">Odeia: </span>
+                <span class="item-info-text">crime, indecisão </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Curte: </span>
+                <span class="item-info-text"
+                  >dias de folga, fazer compras com Li-Fen
+                </span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Altura: </span>
+                <span class="item-info-text">1,69 m</span>
+              </li>
+              <li class="info-list-item">
+                <span class="item-info-title">Peso: </span>
+                <span class="item-info-text">segredo &#128151;</span>
+              </li>
+            </ul>
+            <a href="https://www.streetfighter.com/6/pt-br/character/chunli.html" class="btn-know-more">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide Chunli -->
+
+      <div class="slide-img slide-chunli">
+        <div class="slides">
+          <input type="radio" name="slide" id="slidechunli1" checked />
+          <input type="radio" name="slide" id="slidechunli2" />
+          <input type="radio" name="slide" id="slidechunli3" />
+          <input type="radio" name="slide" id="slidechunli4" />
+
+          <div class="slide s1">
+            <img
+              src="./src/image/chunli_s1.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s2">
+            <img
+              src="./src/image/chunli_s2.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s3">
+            <img
+              src="./src/image/chunli_s3.jpg"
+              alt="imagem do personagem Ken"
+            />
+          </div>
+          <div class="slide s4">
+            <img src="./src/image/chunli_s4.jpg" alt="" />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slidechunli1"></label>
+            <label class="bar" for="slidechunli2"></label>
+            <label class="bar" for="slidechunli3"></label>
+            <label class="bar" for="slidechunli4"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="service">
+        <img
+          src="./src/image/com-gif-maker-unscreen.gif"
+          alt="ryu"
+          class="ryu"
+        />
+        <div class="service-info">
+          <h3>Ryu</h3>
+          <p>
+            Ryu é um personagem fictício e protagonista da franquia de jogos
+            eletrônicos de luta Street Fighter. Ryu estreou o primeiro Street
+            Fighter em 1987, onde ele e seu melhor amigo Ken Masters eram
+            participantes de um torneio de artes marciais.
+          </p>
+        </div>
+      </div>
+
+      <div class="service">
+        <img src="./src/image/ken-unscreen.gif" alt="ken" class="ken" />
+        <div class="service-info">
+          <h3>Ken</h3>
+          <p>
+            Ken Masters, originalmente escrito em kanji como Ken com seu nome
+            completo original sendo desconhecido, é um personagem fictício da
+            série Street Fighter da Capcom. Ken é o melhor amigo e rival de Ryu,
+            que também apareceu em todos os jogos de Street Fighter.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="project">
+        <a href="https://www.streetfighter.com/6/pt-br/character/chunli.html">
+          <img src="./src/image/chunli.gif" alt="avatar" />
+        </a>
+      </div>
+
+      <div class="project">
+        <a href="https://www.streetfighter.com/6/pt-br/character/guile.html">
+          <img src="./src/image/ezgif.com-reverse.gif" alt="avatar" />
+        </a>
+      </div>
+
+      <div class="project">
+        <a href="https://www.streetfighter.com/6/pt-br/character/blanka.html">
+          <img src="./src/image/Blanka.gif" alt="avatar" />
+        </a>
+      </div>
+
+      <div class="project">
+        <a href="https://www.streetfighter.com/6/pt-br/character/dhalsim.html">
+          <img src="./src/image/ezgif.com-reverse (1).gif" alt="avatar" />
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <h3>Street Fighter</h3>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#inicio">Início</a>
+          </li>
+          <li>
+            <a href="#personagem">Personagens</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="redes-sociais">
+        <a href="https://www.instagram.com/thamiristeodoro_/">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/thamiris-teodoro/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://github.com/ThamirisTeodoro">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+:root {
+  --max-width-size: 1920px;
+
+  --color-fundo: #01579b;
+  --medium-color: #67a4f4;
+  --card-back: #11b2ec;
+  /* PINK */
+  --soft-color-purple: rgb(80, 121, 224);
+  --dark-color: #8917ab;
+}
